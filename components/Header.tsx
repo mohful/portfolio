@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import {BsFiletypePdf} from 'react-icons/bs'
 
 type Props = {};
 
@@ -35,17 +35,19 @@ function Header({}: Props) {
         transition={{ duration: 1.5 }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+        <a href="./Resume.pdf" target="_blank">
+          <motion.button
+            className="px-4 py-2 rounded-md text-[#F7AB0A] text-[13px] border border-[#F7AB0A] hover:bg-[rgb(100,255,218,0.1)]"
+          >
+            Resume
+          </motion.button>
+        </a>
+        {/* <BsFiletypePdf />
         <Link href="#contact">
           <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
             Get in touch
           </p>
-        </Link>
+        </Link> */}
       </motion.div>
     </header>
   );
