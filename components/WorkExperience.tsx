@@ -7,7 +7,7 @@ function WorkExperience({}: Props) {
   const icons = ["./SEQ.png", "./YU.png", "./BEST.png"];
   const description = [
     [
-      "Currently working with the Best lab so I will update as I go through."
+      ""
     ],
     [
       "Worked on a project to develop a machine learning approach for identifying players in team sports video through their jersey numbers.",
