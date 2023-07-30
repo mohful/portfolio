@@ -7,7 +7,10 @@ function WorkExperience({}: Props) {
   const icons = ["./SEQ.png", "./YU.png", "./BEST.png"];
   const description = [
     [
-      ""
+      "Worked on a project to develop a machine learning approach for inspecting power lines for damage.",
+      "Developed a Ground Server web application to facilitate heavy ML object detection computing, image storage, and client interface display using React.js and Python.",
+      "Modified and implemented the YOLOv5 object detection ML model, specializing it for power line inspection and damage detection. Improved the model’s accuracy and efficiency by fine-tuning it on specific powerline datasets.",
+      "Utilized ROS2 (Robot Operating System 2) for hardware programming, following a node-based software design architecture. Orchestrated control nodes within parent nodes to enable complex procedures for robotic systems."
     ],
     [
       "Worked on a project to develop a machine learning approach for identifying players in team sports video through their jersey numbers.",
