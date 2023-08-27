@@ -4,27 +4,27 @@ type Props = {};
 
 function Projects({}: Props) {
   const project1 = {
-    name: "Data Visualizer",
-    description: "An application that visualizes how data structures work like Stacks, Trees, and also graphs and graph algorithms like Djikstra.",
-    image: "./construction.png",
+    name: "VideoCo",
+    description: "Designed and implemented a secure e-commerce platform specializing in video sales.",
+    image: "./videoco.png",
     link: "",
   };
   const project2 = {
     name: "Fraud Detector" ,
     description:"An application that detects fraudulent activities through Machine Learning",
-    image: "./construction.png",
+    image: "./fraud.png",
     link: "",
   };
   const project3 = {
     name: "Chatbox",
-    description: "An chat-based application with end-to-end encryption.",
-    image:"./construction.png",
+    description: "A chat-based application with end-to-end encryption.",
+    image:"./chatbox.png",
     link: "",
   };
   const project4 = {
-    name: "SQL-Ops",
-    description:"An application that can perform basic SQL operations",
-    image:"./construction.png",
+    name: "Allegro Tab Converter",
+    description:"A software system that converts music tablature in text format to a MusicXML file format for use in digital playback programs and websites.",
+    image:"./allegro.png",
     link: "",
   };
 
