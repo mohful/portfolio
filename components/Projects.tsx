@@ -4,9 +4,9 @@ type Props = {};
 
 function Projects({}: Props) {
   const project1 = {
-    name: "VideoCo",
-    description: "Designed and implemented a secure e-commerce platform specializing in video sales.",
-    image: "./videoco.png",
+    name: "AuctionHub",
+    description: "Designed and implemented a secure online auction e-commerce platform.",
+    image: "./auctionhub.png",
     link: "",
   };
   const project2 = {
