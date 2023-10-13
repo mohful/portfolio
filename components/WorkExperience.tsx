@@ -16,6 +16,7 @@ function WorkExperience({}: Props) {
       "Worked on a project to develop a machine learning approach for identifying players in team sports video through their jersey numbers.",
       "Invented a CNN to perform binary classification of player images based on the visibility of their jersey number using a dataset of manually labelled hockey player images.",
       "Contributed to the field of Computer Vision by individually presenting my findings at the Lassonde Undergraduate Research Conference 2022.",
+      "Utilized Unity 3D to create synthetic hockey player images to improve the accuracy of the CNN model.",
       "Evaluated existing Multiple Object Tracking (MOT) on the hockey dataset to identify players on the field by recognizing their movement patterns. This required reading and understanding relevant papers, adapting open source code to the dataset, and training and evaluating models using Python and PyTorch."
     ], 
     [
