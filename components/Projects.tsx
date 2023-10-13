@@ -10,9 +10,9 @@ function Projects({}: Props) {
     link: "",
   };
   const project2 = {
-    name: "Fraud Detector" ,
-    description:"An application that detects fraudulent activities through Machine Learning",
-    image: "./fraud.png",
+    name: "Market Basket Analysis" ,
+    description:"Conducted a market-basket analysis on data sets from a Belgian Retail Store and Netflix",
+    image: "./MBA.png",
     link: "",
   };
   const project3 = {
